@@ -18,7 +18,7 @@ while ((pos1<len(arr1)) & (pos2<len(arr2))):
     if arr1[pos1]==arr2[pos2]:
         print(arr1[pos1])
         pos1+=1
-        pos2+=2
+        pos2+=1
     elif arr1[pos1]>arr2[pos2]:
         pos2+=1
     else:
